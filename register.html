@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <script src="register.js"></script>
+    <style>
+        *
+        {
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+        }
+        div.background
+        {
+            position:absolute;
+            background-image: url("deluxe9.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width:100%;
+            height:746px;
+            
+        }
+         input[type=text],input[type=number],input[type=date]
+     {
+        left: 20px;
+    top: 0px;
+    padding: 5px;
+    margin: 5px;
+    width: 40vh;
+    border: 2px solid black;
+    background-color: #f1f1f1;
+    border-radius: 6px;
+    position: relative;
+}
+.register
+{
+ 
+    padding:30px;
+    color:blue;
+    height:auto;
+    border-radius: 9px;
+    font-size: 20px;
+   position:relative;
+   left:350px;
+   top:50px;
+   border:2px solid black;
+   width:90vh;
+   align-items: center;
+   justify-content:center;
+  
+
+}
+.submit 
+{
+    left: 200px;
+    position: relative;
+    padding: 8px;
+    margin: 5px;
+    border: 3px solid black;
+}
+.submit a
+{
+    text-decoration: none;
+}
+.submit :hover
+{
+    background-color: whitesmoke;
+    color:red;
+    font-size: 15px;
+}
+</style>
+
+</head>
+<body>
+  
+<div class="background">
+    <div class="register">
+        <label for="Name">CustomerName</label>
+            <input type="text" placeholder="enter the customer name" name="Name"><br>
+        
+        <label for="Date">Check-in Date</label>
+            <input type="Date" placeholder="enter the check-in date" name="Date"><br>
+     
+       <label for="Days">Total No of Days</label>
+            <input type="Number" placeholder="enter the total no of days" name="Days" id="nod"><br>
+           
+       <label for="Persons">Total No of Persons</label>
+            <input type="Number" placeholder="enter the total no of persons" name="persons" id="nop" ><br>
+
+        
+        <label for="Room" >Room Type</label>
+            <select id="room">
+                <option value="2500">Deluxe Room </option>
+                <option value="4000">Suite Room </option>
+            </select><br>
+
+        
+            <label for="Room">Amenities</label>
+            <select  id="amen">
+                <option value="1000">AC </option>
+                <option value="300">Locker </option>
+            </select><br>
+        
+           
+           
+            <label for="Advance">Advance Amount
+              <input type="Number" id="advance" placeholder="Advanced Amount" onkeyup="advance()" required><br>
+           </label><br>
+
+        
+        
+        <label>Room Cost
+            <input type="text" placeholder="Cost of the Room" id="totalroom" name="" readonly>
+        </label ><br>
+        
+        
+        <label >Total Amenities cost
+            <input type="text" placeholder="cost of the Amenities" id="am" name="" readonly>
+        </label><br>
+
+
+
+        <p>Note:Upto 2 People No change in Cost
+            <br>
+            Otherwise per day cost for Extra person RS.1000/-.
+       </p><br>
+     
+        
+       <label class="additional">Additional Charges
+        <input type="text" placeholder="  Additional Charges" id="addicost" name="" readonly>
+       </label><br>
+        
+        
+        <label>Total Cost
+            <input type="text" placeholder="Total Cost" id="totalcost" name="" readonly>
+        </label><br>
+   
+       
+       
+        <label> Balance
+            <input type="text" placeholder="Balance" id="balance" name="" readonly>
+        </label><br>
+    
+        
+        <label>
+          <input type="checkbox"required>
+            Room should be kept neat and clean.
+            I agree the tems and conditions.
+        </label><br>
+ 
+        <button type="submit" class="submit"> <a href="success.html">Register</a> </button>
+      
+    </div>
+ </div>
+
+</body>
+</html>

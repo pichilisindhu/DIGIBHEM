@@ -1,0 +1,65 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+div.background
+{
+
+    background-image: url("back1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:746px;
+   
+ 
+}
+
+.header ul li
+{
+    display: flex;
+    justify-content: left;
+}
+.header ul li a
+{
+    padding: 0px;
+    margin: 15px;
+    text-decoration: none;
+
+}
+.header ul li div a
+{
+    padding: 15px;
+    margin: 0px 303px 20px 121px;
+    font-size: 20px;
+}
+.header ul li  img
+{
+    margin: 8px -125px -7px 76px;
+    width: 50px;
+    height: 50px;
+}
+.name a{
+    color:blue;
+}
+.header ul li a:hover
+{
+    color:orange;
+}
+.text p{
+     font-family:serif;
+    font-size: 50px;
+   
+    margin: 248px 20px -240px 135px;
+   
+}
+.tex p{
+    margin: 250px 90px 10px 150px;
+}
+
+.header a:hover{
+    color:antiquewhite;
+}

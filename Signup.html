@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp page</title>
+    <style>
+       
+       *{
+         box-sizing: border-box;
+           
+        }
+        
+        .cointainer
+        {
+          font-family: Arial, Helvetica, sans-serif;
+          position: absolute;
+          width: 556px;
+          height: 556px;
+          top: 40px;
+          left: 400px;
+          background-color: white;
+          margin: 30px;
+          padding: 72px;
+          border:2px solid black
+        }
+       
+        input[type=text],input[type=password]
+        {
+          display: flex;
+          width: 300px;
+          padding: 5px;
+          margin: 10px 0px 5px 10px;
+          background-color:#f1f1f1;
+        }
+        
+        input[type=text]:focus, input[type=password]:focus
+        {
+          background-color:#ddd;
+          outline:none;
+        }
+
+        label
+        {
+          padding:10px;
+          margin:2px;
+        }
+        
+        button
+        {
+          background-color: #04AA6D;
+          color:white;
+          padding: 10px 50px 10px 50px;
+          margin: 8px 0px 8px 5px;
+          font-weight:bold;
+          font-size: 15px;
+          opacity:1;
+        }
+        
+        .cancelbtn:hover,.signupbtn:hover
+        {
+          background-color:red;
+        }
+        
+        .cancelbtn,.signupbtn
+        {
+          padding: 10px 60px 10px 10px;
+          cursor: pointer;
+          width:20px;
+        }
+      
+        @media screen and(max-width:300px)
+        {
+          .cancelbtn,.signupbtn
+          {
+            width:100%;
+          }
+        }
+      
+       .footer p 
+       {
+         left: 500px;
+         position: relative;
+         top: 500px;
+       }
+    
+      .signupbtn a,.cancelbtn a
+      {
+        text-decoration: none;
+     
+      }
+   </style>
+</head>
+
+<body>
+  
+  <div class="img">
+      <div class="cointainer">
+        <h1 style="margin:15px">Sign Up</h1>
+        <p style="margin:10px"> please fill this form to create an account.</p>
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email">
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter password" name="psw">
+        <label for="conform-password"><b>conform-password</b></label>
+        <input type="password" placeholder="conform password" name="conform-password">
+        <label>
+        <input type="checkbox" name="remainder">Remainder me
+       </label>
+        <div class="clearfix">
+            <button type="button" class="cancelbtn"><a href="hotel.html">cancel</a></button>
+            <button type="button" class="signupbtn"><a href="login.html">SignUp</a></button>
+
+        </div>
+     </div>
+  </div>
+
+   <div class="footer">
+  <p>Already have an account?<a href="login.html">Login.</a> </p>
+  </div>
+</body>
+
+</html>
