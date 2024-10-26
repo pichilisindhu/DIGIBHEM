@@ -26,3 +26,12 @@ Although static, the pages simulate a user account system.
 # Our Accommodations
 ![Screenshot 2024-10-25 155339](https://github.com/user-attachments/assets/ae05b2b3-25bc-42fa-bc5a-3c3962c8c3b7)
 ![Screenshot 2024-10-25 155358](https://github.com/user-attachments/assets/ce5d503b-efa2-4e4c-9355-0d07197a60ca)
+
+# About Page
+![Screenshot 2024-10-25 155619](https://github.com/user-attachments/assets/30ccc4e4-8a35-4063-9e84-fece3afd95ef)
+
+# Login Page
+![Screenshot 2024-10-25 155529](https://github.com/user-attachments/assets/da11f6e5-8e6a-451b-93ff-ba9abdebb651)
+
+# Signup Page
+![Screenshot 2024-10-25 155511](https://github.com/user-attachments/assets/2300e0fa-1714-4fb9-a9c2-b2a94e809bfc)
