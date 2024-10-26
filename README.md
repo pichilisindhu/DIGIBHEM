@@ -22,3 +22,7 @@ Shares Hill Resort's story, values, and mission, providing a background to poten
 Allows users to log in to their account or create a new account.
 Designed with basic input validation for username and password fields.
 Although static, the pages simulate a user account system.
+
+# Our Accommodations
+![Screenshot 2024-10-25 155339](https://github.com/user-attachments/assets/ae05b2b3-25bc-42fa-bc5a-3c3962c8c3b7)
+![Screenshot 2024-10-25 155358](https://github.com/user-attachments/assets/ce5d503b-efa2-4e4c-9355-0d07197a60ca)
