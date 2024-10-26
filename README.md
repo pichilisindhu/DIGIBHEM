@@ -35,3 +35,6 @@ Although static, the pages simulate a user account system.
 
 # Signup Page
 ![Screenshot 2024-10-25 155511](https://github.com/user-attachments/assets/2300e0fa-1714-4fb9-a9c2-b2a94e809bfc)
+
+# Registration Page
+![Screenshot 2024-10-26 070719](https://github.com/user-attachments/assets/122be862-e5c1-4b80-a32f-d53e5af438ec)
